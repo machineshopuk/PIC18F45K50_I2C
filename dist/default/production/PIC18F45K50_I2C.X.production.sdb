@@ -1,0 +1,1667 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F45K50 ]
+[d frameptr 4065 ]
+"34 /Users/john/Library/Mobile Documents/com~apple~CloudDocs/Fiverr/Microchip Dev Board/PIC18F45K50_I2C.X/mcc_generated_files/drivers/i2c_simple_master.c
+[e E360 . `uc
+I2C1_STOP 1
+I2C1_RESTART_READ 2
+I2C1_RESTART_WRITE 3
+I2C1_CONTINUE 4
+I2C1_RESET_LINK 5
+]
+"53
+[e E355 . `uc
+I2C1_NOERR 0
+I2C1_BUSY 1
+I2C1_FAIL 2
+]
+"67 /Users/john/Library/Mobile Documents/com~apple~CloudDocs/Fiverr/Microchip Dev Board/PIC18F45K50_I2C.X/mcc_generated_files/examples/i2c1_master_example.c
+[e E355 . `uc
+I2C1_NOERR 0
+I2C1_BUSY 1
+I2C1_FAIL 2
+]
+"68
+[e E360 . `uc
+I2C1_STOP 1
+I2C1_RESTART_READ 2
+I2C1_RESTART_WRITE 3
+I2C1_CONTINUE 4
+I2C1_RESET_LINK 5
+]
+"81 /Users/john/Library/Mobile Documents/com~apple~CloudDocs/Fiverr/Microchip Dev Board/PIC18F45K50_I2C.X/mcc_generated_files/examples/uart_example.c
+[e E5219 . `uc
+UART1 0
+]
+"146 /Users/john/Library/Mobile Documents/com~apple~CloudDocs/Fiverr/Microchip Dev Board/PIC18F45K50_I2C.X/mcc_generated_files/i2c1_master.c
+[e E5244 . `uc
+I2C1_IDLE 0
+I2C1_SEND_ADR_READ 1
+I2C1_SEND_ADR_WRITE 2
+I2C1_TX 3
+I2C1_RX 4
+I2C1_RCEN 5
+I2C1_TX_EMPTY 6
+I2C1_SEND_RESTART_READ 7
+I2C1_SEND_RESTART_WRITE 8
+I2C1_SEND_RESTART 9
+I2C1_SEND_STOP 10
+I2C1_RX_ACK 11
+I2C1_RX_NACK_STOP 12
+I2C1_RX_NACK_RESTART 13
+I2C1_RESET 14
+I2C1_ADDRESS_NACK 15
+]
+"165
+[e E360 . `uc
+I2C1_STOP 1
+I2C1_RESTART_READ 2
+I2C1_RESTART_WRITE 3
+I2C1_CONTINUE 4
+I2C1_RESET_LINK 5
+]
+[e E355 . `uc
+I2C1_NOERR 0
+I2C1_BUSY 1
+I2C1_FAIL 2
+]
+"191
+[e E5262 . `uc
+I2C1_DATA_COMPLETE 0
+I2C1_WRITE_COLLISION 1
+I2C1_ADDR_NACK 2
+I2C1_DATA_NACK 3
+I2C1_TIMEOUT 4
+I2C1_NULL 5
+]
+"4 /Applications/microchip/xc8/v2.35/pic/sources/c99/common/__fpclassifyf.c
+[v ___fpclassifyf __fpclassifyf `(i  1 e 2 0 ]
+"1 /Applications/microchip/xc8/v2.35/pic/sources/c99/common/abs.c
+[v _abs abs `(i  1 e 2 0 ]
+"9 /Applications/microchip/xc8/v2.35/pic/sources/c99/common/aodiv.c
+[v ___aodiv __aodiv `(o  1 e 8 0 ]
+"9 /Applications/microchip/xc8/v2.35/pic/sources/c99/common/aomod.c
+[v ___aomod __aomod `(o  1 e 8 0 ]
+"7 /Applications/microchip/xc8/v2.35/pic/sources/c99/common/awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"7 /Applications/microchip/xc8/v2.35/pic/sources/c99/common/awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+"72 /Applications/microchip/xc8/v2.35/pic/sources/c99/common/doprnt.c
+[v _pad pad `(i  1 s 2 pad ]
+"259
+[v _ctoa ctoa `(i  1 s 2 ctoa ]
+"287
+[v _dtoa dtoa `(i  1 s 2 dtoa ]
+"332
+[v _efgtoa efgtoa `(i  1 s 2 efgtoa ]
+"692
+[v _vfpfcnvrt vfpfcnvrt `(i  1 s 2 vfpfcnvrt ]
+"1390
+[v _vfprintf vfprintf `(i  1 e 2 0 ]
+"4 /Applications/microchip/xc8/v2.35/pic/sources/c99/common/fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"4 /Applications/microchip/xc8/v2.35/pic/sources/c99/common/flge.c
+[v ___flge __flge `(b  1 e 0 0 ]
+"15 /Applications/microchip/xc8/v2.35/pic/sources/c99/common/flneg.c
+[v ___flneg __flneg `(d  1 e 4 0 ]
+"62 /Applications/microchip/xc8/v2.35/pic/sources/c99/common/float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"3 /Applications/microchip/xc8/v2.35/pic/sources/c99/common/floorf.c
+[v _floorf floorf `(f  1 e 4 0 ]
+"43 /Applications/microchip/xc8/v2.35/pic/sources/c99/common/fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+"86 /Applications/microchip/xc8/v2.35/pic/sources/c99/common/ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 /Applications/microchip/xc8/v2.35/pic/sources/c99/common/ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 /Applications/microchip/xc8/v2.35/pic/sources/c99/common/ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 /Applications/microchip/xc8/v2.35/pic/sources/c99/common/ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"5 /Applications/microchip/xc8/v2.35/pic/sources/c99/common/isupper.c
+[v _isupper isupper `(i  1 e 2 0 ]
+"4 /Applications/microchip/xc8/v2.35/pic/sources/c99/common/memset.c
+[v _memset memset `(*.39v  1 e 2 0 ]
+"8 /Applications/microchip/xc8/v2.35/pic/sources/c99/common/nf_fputc.c
+[v _fputc fputc `(i  1 e 2 0 ]
+"8 /Applications/microchip/xc8/v2.35/pic/sources/c99/common/nf_fputs.c
+[v _fputs fputs `(i  1 e 2 0 ]
+"5 /Applications/microchip/xc8/v2.35/pic/sources/c99/common/printf.c
+[v _printf printf `(i  1 e 2 0 ]
+"10 /Applications/microchip/xc8/v2.35/pic/sources/c99/common/sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 /Applications/microchip/xc8/v2.35/pic/sources/c99/common/sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 /Applications/microchip/xc8/v2.35/pic/sources/c99/common/sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"3 /Applications/microchip/xc8/v2.35/pic/sources/c99/common/strcpy.c
+[v _strcpy strcpy `(*.39uc  1 e 2 0 ]
+"5 /Applications/microchip/xc8/v2.35/pic/sources/c99/common/strlen.c
+[v _strlen strlen `(ui  1 e 2 0 ]
+"3 /Applications/microchip/xc8/v2.35/pic/sources/c99/common/strncmp.c
+[v _strncmp strncmp `(i  1 e 2 0 ]
+"4 /Applications/microchip/xc8/v2.35/pic/sources/c99/common/tolower.c
+[v _tolower tolower `(i  1 e 2 0 ]
+"15 /Applications/microchip/xc8/v2.35/pic/sources/c99/common/Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 /Applications/microchip/xc8/v2.35/pic/sources/c99/common/Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"10 /Applications/microchip/xc8/v2.35/pic/sources/c99/common/xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+"49 /Users/john/Library/Mobile Documents/com~apple~CloudDocs/Fiverr/Microchip Dev Board/PIC18F45K50_I2C.X/main.c
+[v _main main `(v  1 e 1 0 ]
+"34 /Users/john/Library/Mobile Documents/com~apple~CloudDocs/Fiverr/Microchip Dev Board/PIC18F45K50_I2C.X/mcc_generated_files/drivers/i2c_simple_master.c
+[v _wr1RegCompleteHandler wr1RegCompleteHandler `(E360  1 s 1 wr1RegCompleteHandler ]
+"51
+[v _i2c_write1ByteRegister i2c_write1ByteRegister `(v  1 e 1 0 ]
+"81
+[v _rd1RegCompleteHandler rd1RegCompleteHandler `(E360  1 s 1 rd1RegCompleteHandler ]
+"119
+[v _rd2RegCompleteHandler rd2RegCompleteHandler `(E360  1 s 1 rd2RegCompleteHandler ]
+"151
+[v _wr2RegCompleteHandler wr2RegCompleteHandler `(E360  1 s 1 wr2RegCompleteHandler ]
+"185
+[v _rdBlkRegCompleteHandler rdBlkRegCompleteHandler `(E360  1 s 1 rdBlkRegCompleteHandler ]
+"203
+[v _i2c_readDataBlock i2c_readDataBlock `(v  1 e 1 0 ]
+"88 /Users/john/Library/Mobile Documents/com~apple~CloudDocs/Fiverr/Microchip Dev Board/PIC18F45K50_I2C.X/mcc_generated_files/eusart1.c
+[v _EUSART1_Initialize EUSART1_Initialize `(v  1 e 1 0 ]
+"132
+[v _EUSART1_is_tx_ready EUSART1_is_tx_ready `(a  1 e 1 0 ]
+"137
+[v _EUSART1_is_rx_ready EUSART1_is_rx_ready `(a  1 e 1 0 ]
+"142
+[v _EUSART1_is_tx_done EUSART1_is_tx_done `(a  1 e 1 0 ]
+"151
+[v _EUSART1_Read EUSART1_Read `(uc  1 e 1 0 ]
+"173
+[v _EUSART1_Write EUSART1_Write `(v  1 e 1 0 ]
+"202
+[v _putch putch `(v  1 e 1 0 ]
+"207
+[v _EUSART1_Transmit_ISR EUSART1_Transmit_ISR `(v  1 e 1 0 ]
+"226
+[v _EUSART1_Receive_ISR EUSART1_Receive_ISR `(v  1 e 1 0 ]
+"250
+[v _EUSART1_RxDataHandler EUSART1_RxDataHandler `(v  1 e 1 0 ]
+"260
+[v _EUSART1_DefaultFramingErrorHandler EUSART1_DefaultFramingErrorHandler `(v  1 e 1 0 ]
+"262
+[v _EUSART1_DefaultOverrunErrorHandler EUSART1_DefaultOverrunErrorHandler `(v  1 e 1 0 ]
+"270
+[v _EUSART1_DefaultErrorHandler EUSART1_DefaultErrorHandler `(v  1 e 1 0 ]
+"274
+[v _EUSART1_SetFramingErrorHandler EUSART1_SetFramingErrorHandler `(v  1 e 1 0 ]
+"278
+[v _EUSART1_SetOverrunErrorHandler EUSART1_SetOverrunErrorHandler `(v  1 e 1 0 ]
+"282
+[v _EUSART1_SetErrorHandler EUSART1_SetErrorHandler `(v  1 e 1 0 ]
+"286
+[v _EUSART1_SetTxInterruptHandler EUSART1_SetTxInterruptHandler `(v  1 e 1 0 ]
+"290
+[v _EUSART1_SetRxInterruptHandler EUSART1_SetRxInterruptHandler `(v  1 e 1 0 ]
+"142 /Users/john/Library/Mobile Documents/com~apple~CloudDocs/Fiverr/Microchip Dev Board/PIC18F45K50_I2C.X/mcc_generated_files/examples/i2c1_master_example.c
+[v _rd1RegCompleteHandler@i2c1_master_example$F236 rd1RegCompleteHandler `(E360  1 s 1 rd1RegCompleteHandler ]
+"149
+[v _rd2RegCompleteHandler@i2c1_master_example$F247 rd2RegCompleteHandler `(E360  1 s 1 rd2RegCompleteHandler ]
+"156
+[v _wr1RegCompleteHandler@i2c1_master_example$F253 wr1RegCompleteHandler `(E360  1 s 1 wr1RegCompleteHandler ]
+"163
+[v _wr2RegCompleteHandler@i2c1_master_example$F259 wr2RegCompleteHandler `(E360  1 s 1 wr2RegCompleteHandler ]
+"170
+[v _rdBlkRegCompleteHandler@i2c1_master_example$F270 rdBlkRegCompleteHandler `(E360  1 s 1 rdBlkRegCompleteHandler ]
+"76 /Users/john/Library/Mobile Documents/com~apple~CloudDocs/Fiverr/Microchip Dev Board/PIC18F45K50_I2C.X/mcc_generated_files/examples/uart_example.c
+[v _UART_example_WRITE_STRING UART_example_WRITE_STRING `(v  1 e 1 0 ]
+"90
+[v _UART_example_PRINTF UART_example_PRINTF `(v  1 e 1 0 ]
+"102
+[v _UART_example_READ UART_example_READ `(v  1 e 1 0 ]
+"167 /Users/john/Library/Mobile Documents/com~apple~CloudDocs/Fiverr/Microchip Dev Board/PIC18F45K50_I2C.X/mcc_generated_files/i2c1_master.c
+[v _I2C1_Initialize I2C1_Initialize `(v  1 e 1 0 ]
+"176
+[v _I2C1_Open I2C1_Open `(E355  1 e 1 0 ]
+"209
+[v _I2C1_Close I2C1_Close `(E355  1 e 1 0 ]
+"224
+[v _I2C1_MasterOperation I2C1_MasterOperation `(E355  1 e 1 0 ]
+"246
+[v _I2C1_MasterRead I2C1_MasterRead `(E355  1 e 1 0 ]
+"251
+[v _I2C1_MasterWrite I2C1_MasterWrite `(E355  1 e 1 0 ]
+"263
+[v _I2C1_SetBuffer I2C1_SetBuffer `(v  1 e 1 0 ]
+"273
+[v _I2C1_SetDataCompleteCallback I2C1_SetDataCompleteCallback `(v  1 e 1 0 ]
+"283
+[v _I2C1_SetAddressNackCallback I2C1_SetAddressNackCallback `(v  1 e 1 0 ]
+"298
+[v _I2C1_SetCallback I2C1_SetCallback `(v  1 s 1 I2C1_SetCallback ]
+"312
+[v _I2C1_Poller I2C1_Poller `(v  1 s 1 I2C1_Poller ]
+"321
+[v _I2C1_MasterFsm I2C1_MasterFsm `T(v  1 s 1 I2C1_MasterFsm ]
+"333
+[v _I2C1_DO_IDLE I2C1_DO_IDLE `(E5244  1 s 1 I2C1_DO_IDLE ]
+"340
+[v _I2C1_DO_SEND_ADR_READ I2C1_DO_SEND_ADR_READ `(E5244  1 s 1 I2C1_DO_SEND_ADR_READ ]
+"347
+[v _I2C1_DO_SEND_ADR_WRITE I2C1_DO_SEND_ADR_WRITE `(E5244  1 s 1 I2C1_DO_SEND_ADR_WRITE ]
+"354
+[v _I2C1_DO_TX I2C1_DO_TX `(E5244  1 s 1 I2C1_DO_TX ]
+"378
+[v _I2C1_DO_RX I2C1_DO_RX `(E5244  1 s 1 I2C1_DO_RX ]
+"402
+[v _I2C1_DO_RCEN I2C1_DO_RCEN `(E5244  1 s 1 I2C1_DO_RCEN ]
+"409
+[v _I2C1_DO_TX_EMPTY I2C1_DO_TX_EMPTY `(E5244  1 s 1 I2C1_DO_TX_EMPTY ]
+"450
+[v _I2C1_DO_SEND_RESTART_READ I2C1_DO_SEND_RESTART_READ `(E5244  1 s 1 I2C1_DO_SEND_RESTART_READ ]
+"456
+[v _I2C1_DO_SEND_RESTART_WRITE I2C1_DO_SEND_RESTART_WRITE `(E5244  1 s 1 I2C1_DO_SEND_RESTART_WRITE ]
+"463
+[v _I2C1_DO_SEND_RESTART I2C1_DO_SEND_RESTART `(E5244  1 s 1 I2C1_DO_SEND_RESTART ]
+"469
+[v _I2C1_DO_SEND_STOP I2C1_DO_SEND_STOP `(E5244  1 s 1 I2C1_DO_SEND_STOP ]
+"475
+[v _I2C1_DO_RX_ACK I2C1_DO_RX_ACK `(E5244  1 s 1 I2C1_DO_RX_ACK ]
+"482
+[v _I2C1_DO_RX_NACK_STOP I2C1_DO_RX_NACK_STOP `(E5244  1 s 1 I2C1_DO_RX_NACK_STOP ]
+"488
+[v _I2C1_DO_RX_NACK_RESTART I2C1_DO_RX_NACK_RESTART `(E5244  1 s 1 I2C1_DO_RX_NACK_RESTART ]
+"494
+[v _I2C1_DO_RESET I2C1_DO_RESET `(E5244  1 s 1 I2C1_DO_RESET ]
+"500
+[v _I2C1_DO_ADDRESS_NACK I2C1_DO_ADDRESS_NACK `(E5244  1 s 1 I2C1_DO_ADDRESS_NACK ]
+"520
+[v _I2C1_CallbackReturnStop I2C1_CallbackReturnStop `(E360  1 e 1 0 ]
+"525
+[v _I2C1_CallbackReturnReset I2C1_CallbackReturnReset `(E360  1 e 1 0 ]
+"543
+[v _I2C1_MasterOpen I2C1_MasterOpen `T(a  1 s 1 I2C1_MasterOpen ]
+"557
+[v _I2C1_MasterClose I2C1_MasterClose `T(v  1 s 1 I2C1_MasterClose ]
+"563
+[v _I2C1_MasterGetRxData I2C1_MasterGetRxData `T(uc  1 s 1 I2C1_MasterGetRxData ]
+"568
+[v _I2C1_MasterSendTxData I2C1_MasterSendTxData `T(v  1 s 1 I2C1_MasterSendTxData ]
+"573
+[v _I2C1_MasterEnableRestart I2C1_MasterEnableRestart `T(v  1 s 1 I2C1_MasterEnableRestart ]
+"578
+[v _I2C1_MasterDisableRestart I2C1_MasterDisableRestart `T(v  1 s 1 I2C1_MasterDisableRestart ]
+"583
+[v _I2C1_MasterStartRx I2C1_MasterStartRx `T(v  1 s 1 I2C1_MasterStartRx ]
+"588
+[v _I2C1_MasterStart I2C1_MasterStart `T(v  1 s 1 I2C1_MasterStart ]
+"593
+[v _I2C1_MasterStop I2C1_MasterStop `T(v  1 s 1 I2C1_MasterStop ]
+"598
+[v _I2C1_MasterIsNack I2C1_MasterIsNack `T(a  1 s 1 I2C1_MasterIsNack ]
+"603
+[v _I2C1_MasterSendAck I2C1_MasterSendAck `T(v  1 s 1 I2C1_MasterSendAck ]
+"609
+[v _I2C1_MasterSendNack I2C1_MasterSendNack `T(v  1 s 1 I2C1_MasterSendNack ]
+"615
+[v _I2C1_MasterClearBusCollision I2C1_MasterClearBusCollision `T(v  1 s 1 I2C1_MasterClearBusCollision ]
+"625
+[v _I2C1_MasterEnableIrq I2C1_MasterEnableIrq `T(v  1 s 1 I2C1_MasterEnableIrq ]
+"635
+[v _I2C1_MasterDisableIrq I2C1_MasterDisableIrq `T(v  1 s 1 I2C1_MasterDisableIrq ]
+"640
+[v _I2C1_MasterClearIrq I2C1_MasterClearIrq `T(v  1 s 1 I2C1_MasterClearIrq ]
+"645
+[v _I2C1_MasterSetIrq I2C1_MasterSetIrq `T(v  1 s 1 I2C1_MasterSetIrq ]
+"650
+[v _I2C1_MasterWaitForEvent I2C1_MasterWaitForEvent `T(v  1 s 1 I2C1_MasterWaitForEvent ]
+"52 /Users/john/Library/Mobile Documents/com~apple~CloudDocs/Fiverr/Microchip Dev Board/PIC18F45K50_I2C.X/mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_Initialize INTERRUPT_Initialize `(v  1 e 1 0 ]
+"68
+[v _INTERRUPT_InterruptManagerHigh INTERRUPT_InterruptManagerHigh `IIH(v  1 e 1 0 ]
+"50 /Users/john/Library/Mobile Documents/com~apple~CloudDocs/Fiverr/Microchip Dev Board/PIC18F45K50_I2C.X/mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+"60
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+"55 /Users/john/Library/Mobile Documents/com~apple~CloudDocs/Fiverr/Microchip Dev Board/PIC18F45K50_I2C.X/mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+"233 /Applications/microchip/mplabx/v6.00/packs/Microchip/PIC18F-K_DFP/1.5.114/xc8/pic/include/proc/pic18f45k50.h
+[v _ANSELA ANSELA `VEuc  1 e 1 @3931 ]
+"278
+[v _ANSELB ANSELB `VEuc  1 e 1 @3932 ]
+"328
+[v _ANSELC ANSELC `VEuc  1 e 1 @3933 ]
+"362
+[v _ANSELD ANSELD `VEuc  1 e 1 @3934 ]
+"424
+[v _ANSELE ANSELE `VEuc  1 e 1 @3935 ]
+"3546
+[v _WPUB WPUB `VEuc  1 e 1 @3973 ]
+"3780
+[v _LATA LATA `VEuc  1 e 1 @3977 ]
+"3892
+[v _LATB LATB `VEuc  1 e 1 @3978 ]
+"4004
+[v _LATC LATC `VEuc  1 e 1 @3979 ]
+"4106
+[v _LATD LATD `VEuc  1 e 1 @3980 ]
+[s S1924 . 1 `uc 1 LATD0 1 0 :1:0 
+`uc 1 LATD1 1 0 :1:1 
+`uc 1 LATD2 1 0 :1:2 
+`uc 1 LATD3 1 0 :1:3 
+`uc 1 LATD4 1 0 :1:4 
+`uc 1 LATD5 1 0 :1:5 
+`uc 1 LATD6 1 0 :1:6 
+`uc 1 LATD7 1 0 :1:7 
+]
+"4133
+[s S1933 . 1 `uc 1 LD0 1 0 :1:0 
+`uc 1 LD1 1 0 :1:1 
+`uc 1 LD2 1 0 :1:2 
+`uc 1 LD3 1 0 :1:3 
+`uc 1 LD4 1 0 :1:4 
+`uc 1 LD5 1 0 :1:5 
+`uc 1 LD6 1 0 :1:6 
+`uc 1 LD7 1 0 :1:7 
+]
+[u S1942 . 1 `S1924 1 . 1 0 `S1933 1 . 1 0 ]
+[v _LATDbits LATDbits `VES1942  1 e 1 @3980 ]
+"4218
+[v _LATE LATE `VEuc  1 e 1 @3981 ]
+"4627
+[v _TRISA TRISA `VEuc  1 e 1 @3986 ]
+"4849
+[v _TRISB TRISB `VEuc  1 e 1 @3987 ]
+"5071
+[v _TRISC TRISC `VEuc  1 e 1 @3988 ]
+"5249
+[v _TRISD TRISD `VEuc  1 e 1 @3989 ]
+"5471
+[v _TRISE TRISE `VEuc  1 e 1 @3990 ]
+"6051
+[v _OSCTUNE OSCTUNE `VEuc  1 e 1 @3995 ]
+[s S1126 . 1 `uc 1 TMR1IE 1 0 :1:0 
+`uc 1 TMR2IE 1 0 :1:1 
+`uc 1 CCP1IE 1 0 :1:2 
+`uc 1 SSPIE 1 0 :1:3 
+`uc 1 TXIE 1 0 :1:4 
+`uc 1 RCIE 1 0 :1:5 
+`uc 1 ADIE 1 0 :1:6 
+`uc 1 ACTIE 1 0 :1:7 
+]
+"6220
+[s S1135 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 SSP1IE 1 0 :1:3 
+`uc 1 TX1IE 1 0 :1:4 
+`uc 1 RC1IE 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+`uc 1 STIE 1 0 :1:7 
+]
+[s S1142 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 PSPIE 1 0 :1:7 
+]
+[u S1145 . 1 `S1126 1 . 1 0 `S1135 1 . 1 0 `S1142 1 . 1 0 ]
+[v _PIE1bits PIE1bits `VES1145  1 e 1 @3997 ]
+[s S1169 . 1 `uc 1 TMR1IF 1 0 :1:0 
+`uc 1 TMR2IF 1 0 :1:1 
+`uc 1 CCP1IF 1 0 :1:2 
+`uc 1 SSPIF 1 0 :1:3 
+`uc 1 TXIF 1 0 :1:4 
+`uc 1 RCIF 1 0 :1:5 
+`uc 1 ADIF 1 0 :1:6 
+`uc 1 ACTIF 1 0 :1:7 
+]
+"6319
+[s S1178 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 SSP1IF 1 0 :1:3 
+`uc 1 TX1IF 1 0 :1:4 
+`uc 1 RC1IF 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+`uc 1 STIF 1 0 :1:7 
+]
+[s S1185 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 PSPIF 1 0 :1:7 
+]
+[u S1188 . 1 `S1169 1 . 1 0 `S1178 1 . 1 0 `S1185 1 . 1 0 ]
+[v _PIR1bits PIR1bits `VES1188  1 e 1 @3998 ]
+[s S1771 . 1 `uc 1 TMR1IP 1 0 :1:0 
+`uc 1 TMR2IP 1 0 :1:1 
+`uc 1 CCP1IP 1 0 :1:2 
+`uc 1 SSPIP 1 0 :1:3 
+`uc 1 TXIP 1 0 :1:4 
+`uc 1 RCIP 1 0 :1:5 
+`uc 1 ADIP 1 0 :1:6 
+`uc 1 ACTIP 1 0 :1:7 
+]
+"6418
+[s S1780 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 SSP1IP 1 0 :1:3 
+`uc 1 TX1IP 1 0 :1:4 
+`uc 1 RC1IP 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+`uc 1 STIP 1 0 :1:7 
+]
+[s S1787 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 PSPIP 1 0 :1:7 
+]
+[u S1790 . 1 `S1771 1 . 1 0 `S1780 1 . 1 0 `S1787 1 . 1 0 ]
+[v _IPR1bits IPR1bits `VES1790  1 e 1 @3999 ]
+[s S920 . 1 `uc 1 CCP2IF 1 0 :1:0 
+`uc 1 TMR3IF 1 0 :1:1 
+`uc 1 HLVDIF 1 0 :1:2 
+`uc 1 BCLIF 1 0 :1:3 
+`uc 1 EEIF 1 0 :1:4 
+`uc 1 C2IF 1 0 :1:5 
+`uc 1 C1IF 1 0 :1:6 
+`uc 1 OSCFIF 1 0 :1:7 
+]
+"6616
+[s S929 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 LVDIF 1 0 :1:2 
+`uc 1 BCL1IF 1 0 :1:3 
+`uc 1 . 1 0 :1:4 
+`uc 1 CM2IF 1 0 :1:5 
+`uc 1 CM1IF 1 0 :1:6 
+]
+[s S936 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 CMIF 1 0 :1:6 
+]
+[u S939 . 1 `S920 1 . 1 0 `S929 1 . 1 0 `S936 1 . 1 0 ]
+[v _PIR2bits PIR2bits `VES939  1 e 1 @4001 ]
+"7052
+[v _RCSTA1 RCSTA1 `VEuc  1 e 1 @4011 ]
+[s S1566 . 1 `uc 1 RX9D 1 0 :1:0 
+`uc 1 OERR 1 0 :1:1 
+`uc 1 FERR 1 0 :1:2 
+`uc 1 ADDEN 1 0 :1:3 
+`uc 1 CREN 1 0 :1:4 
+`uc 1 SREN 1 0 :1:5 
+`uc 1 RX9 1 0 :1:6 
+`uc 1 SPEN 1 0 :1:7 
+]
+"7091
+[s S1575 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 ADEN 1 0 :1:3 
+]
+[s S1578 . 1 `uc 1 RCD8 1 0 :1:0 
+`uc 1 . 1 0 :5:1 
+`uc 1 RC8_9 1 0 :1:6 
+]
+[s S1582 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 RC9 1 0 :1:6 
+]
+[s S1585 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 SRENA 1 0 :1:5 
+]
+[u S1588 . 1 `S1566 1 . 1 0 `S1575 1 . 1 0 `S1578 1 . 1 0 `S1582 1 . 1 0 `S1585 1 . 1 0 ]
+[v _RCSTA1bits RCSTA1bits `VES1588  1 e 1 @4011 ]
+"7258
+[v _TXSTA1 TXSTA1 `VEuc  1 e 1 @4012 ]
+[s S1481 . 1 `uc 1 TX9D 1 0 :1:0 
+`uc 1 TRMT 1 0 :1:1 
+`uc 1 BRGH 1 0 :1:2 
+`uc 1 SENDB 1 0 :1:3 
+`uc 1 SYNC 1 0 :1:4 
+`uc 1 TXEN 1 0 :1:5 
+`uc 1 TX9 1 0 :1:6 
+`uc 1 CSRC 1 0 :1:7 
+]
+"7316
+[s S1490 . 1 `uc 1 TXD8 1 0 :1:0 
+`uc 1 . 1 0 :5:1 
+`uc 1 TX8_9 1 0 :1:6 
+]
+[s S1494 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 BRGH1 1 0 :1:2 
+]
+[s S1497 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 CSRC1 1 0 :1:7 
+]
+[s S1500 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 SENDB1 1 0 :1:3 
+]
+[s S1503 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 SYNC1 1 0 :1:4 
+]
+[s S1506 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 TRMT1 1 0 :1:1 
+]
+[s S1509 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 TX91 1 0 :1:6 
+]
+[s S1512 . 1 `uc 1 TX9D1 1 0 :1:0 
+]
+[s S1514 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 TXEN1 1 0 :1:5 
+]
+[u S1517 . 1 `S1481 1 . 1 0 `S1490 1 . 1 0 `S1494 1 . 1 0 `S1497 1 . 1 0 `S1500 1 . 1 0 `S1503 1 . 1 0 `S1506 1 . 1 0 `S1509 1 . 1 0 `S1512 1 . 1 0 `S1514 1 . 1 0 ]
+[v _TXSTA1bits TXSTA1bits `VES1517  1 e 1 @4012 ]
+"7552
+[v _TXREG1 TXREG1 `VEuc  1 e 1 @4013 ]
+"7590
+[v _RCREG1 RCREG1 `VEuc  1 e 1 @4014 ]
+"7628
+[v _SPBRG1 SPBRG1 `VEuc  1 e 1 @4015 ]
+"7766
+[v _SPBRGH1 SPBRGH1 `VEuc  1 e 1 @4016 ]
+"8211
+[v _ACTCON ACTCON `VEuc  1 e 1 @4021 ]
+"8701
+[v _BAUDCON1 BAUDCON1 `VEuc  1 e 1 @4024 ]
+"9885
+[v _SSP1CON2 SSP1CON2 `VEuc  1 e 1 @4037 ]
+[s S850 . 1 `uc 1 SEN 1 0 :1:0 
+`uc 1 RSEN 1 0 :1:1 
+`uc 1 PEN 1 0 :1:2 
+`uc 1 RCEN 1 0 :1:3 
+`uc 1 ACKEN 1 0 :1:4 
+`uc 1 ACKDT 1 0 :1:5 
+`uc 1 ACKSTAT 1 0 :1:6 
+`uc 1 GCEN 1 0 :1:7 
+]
+"9933
+[s S859 . 1 `uc 1 SEN1 1 0 :1:0 
+`uc 1 ADMSK1 1 0 :1:1 
+`uc 1 ADMSK2 1 0 :1:2 
+`uc 1 ADMSK3 1 0 :1:3 
+`uc 1 ACKEN1 1 0 :1:4 
+`uc 1 ACKDT1 1 0 :1:5 
+`uc 1 ACKSTAT1 1 0 :1:6 
+`uc 1 GCEN1 1 0 :1:7 
+]
+[s S868 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 ADMSK11 1 0 :1:1 
+`uc 1 ADMSK21 1 0 :1:2 
+`uc 1 ADMSK31 1 0 :1:3 
+`uc 1 ADMSK4 1 0 :1:4 
+`uc 1 ADMSK5 1 0 :1:5 
+]
+[s S875 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 RSEN1 1 0 :1:1 
+`uc 1 PEN1 1 0 :1:2 
+`uc 1 RCEN1 1 0 :1:3 
+`uc 1 ADMSK41 1 0 :1:4 
+`uc 1 ADMSK51 1 0 :1:5 
+]
+[u S882 . 1 `S850 1 . 1 0 `S859 1 . 1 0 `S868 1 . 1 0 `S875 1 . 1 0 ]
+[v _SSP1CON2bits SSP1CON2bits `VES882  1 e 1 @4037 ]
+"10239
+[v _SSP1CON1 SSP1CON1 `VEuc  1 e 1 @4038 ]
+[s S666 . 1 `uc 1 SSPM 1 0 :4:0 
+`uc 1 CKP 1 0 :1:4 
+`uc 1 SSPEN 1 0 :1:5 
+`uc 1 SSPOV 1 0 :1:6 
+`uc 1 WCOL 1 0 :1:7 
+]
+"10278
+[s S672 . 1 `uc 1 SSPM0 1 0 :1:0 
+`uc 1 SSPM1 1 0 :1:1 
+`uc 1 SSPM2 1 0 :1:2 
+`uc 1 SSPM3 1 0 :1:3 
+]
+[s S677 . 1 `uc 1 SSPM01 1 0 :1:0 
+`uc 1 SSPM11 1 0 :1:1 
+`uc 1 SSPM21 1 0 :1:2 
+`uc 1 SSPM31 1 0 :1:3 
+`uc 1 CKP1 1 0 :1:4 
+`uc 1 SSPEN1 1 0 :1:5 
+`uc 1 SSPOV1 1 0 :1:6 
+`uc 1 WCOL1 1 0 :1:7 
+]
+[u S686 . 1 `S666 1 . 1 0 `S672 1 . 1 0 `S677 1 . 1 0 ]
+[v _SSP1CON1bits SSP1CON1bits `VES686  1 e 1 @4038 ]
+"10593
+[v _SSP1STAT SSP1STAT `VEuc  1 e 1 @4039 ]
+[s S963 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 R_NOT_W 1 0 :1:2 
+]
+"10693
+[s S966 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 D_NOT_A 1 0 :1:5 
+]
+[s S969 . 1 `uc 1 BF 1 0 :1:0 
+`uc 1 UA 1 0 :1:1 
+`uc 1 R_nW 1 0 :1:2 
+`uc 1 S 1 0 :1:3 
+`uc 1 P 1 0 :1:4 
+`uc 1 D_nA 1 0 :1:5 
+`uc 1 CKE 1 0 :1:6 
+`uc 1 SMP 1 0 :1:7 
+]
+[s S978 . 1 `uc 1 BF1 1 0 :1:0 
+`uc 1 UA1 1 0 :1:1 
+`uc 1 I2C_READ 1 0 :1:2 
+`uc 1 I2C_START 1 0 :1:3 
+`uc 1 I2C_STOP 1 0 :1:4 
+`uc 1 D 1 0 :1:5 
+`uc 1 CKE1 1 0 :1:6 
+`uc 1 SMP1 1 0 :1:7 
+]
+[s S987 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 R 1 0 :1:2 
+`uc 1 START 1 0 :1:3 
+`uc 1 STOP 1 0 :1:4 
+`uc 1 DA 1 0 :1:5 
+]
+[s S993 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 READ_WRITE 1 0 :1:2 
+`uc 1 START1 1 0 :1:3 
+`uc 1 STOP1 1 0 :1:4 
+`uc 1 DA1 1 0 :1:5 
+]
+[s S999 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 RW 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 DATA_ADDRESS 1 0 :1:5 
+]
+[s S1004 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 RW1 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 D_A 1 0 :1:5 
+]
+[s S1009 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 R_W 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 I2C_DAT 1 0 :1:5 
+]
+[s S1014 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 nW 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 nA 1 0 :1:5 
+]
+[s S1019 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 NOT_WRITE 1 0 :1:2 
+]
+[s S1022 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 NOT_ADDRESS 1 0 :1:5 
+]
+[s S1025 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 nWRITE 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 nADDRESS 1 0 :1:5 
+]
+[s S1030 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 NOT_W 1 0 :1:2 
+]
+[s S1033 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 NOT_A 1 0 :1:5 
+]
+[u S1036 . 1 `S963 1 . 1 0 `S966 1 . 1 0 `S969 1 . 1 0 `S978 1 . 1 0 `S987 1 . 1 0 `S993 1 . 1 0 `S999 1 . 1 0 `S1004 1 . 1 0 `S1009 1 . 1 0 `S1014 1 . 1 0 `S1019 1 . 1 0 `S1022 1 . 1 0 `S1025 1 . 1 0 `S1030 1 . 1 0 `S1033 1 . 1 0 ]
+[v _SSP1STATbits SSP1STATbits `VES1036  1 e 1 @4039 ]
+"11191
+[v _SSP1ADD SSP1ADD `VEuc  1 e 1 @4040 ]
+"11529
+[v _SSP1BUF SSP1BUF `VEuc  1 e 1 @4041 ]
+[s S1704 . 1 `uc 1 NOT_BOR 1 0 :1:0 
+]
+"12177
+[s S1706 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 NOT_POR 1 0 :1:1 
+]
+[s S1709 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 NOT_PD 1 0 :1:2 
+]
+[s S1712 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 NOT_TO 1 0 :1:3 
+]
+[s S1715 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 NOT_RI 1 0 :1:4 
+]
+[s S1718 . 1 `uc 1 nBOR 1 0 :1:0 
+`uc 1 nPOR 1 0 :1:1 
+`uc 1 nPD 1 0 :1:2 
+`uc 1 nTO 1 0 :1:3 
+`uc 1 nRI 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 SBOREN 1 0 :1:6 
+`uc 1 IPEN 1 0 :1:7 
+]
+[s S1727 . 1 `uc 1 BOR 1 0 :1:0 
+`uc 1 POR 1 0 :1:1 
+`uc 1 PD 1 0 :1:2 
+`uc 1 TO 1 0 :1:3 
+`uc 1 RI 1 0 :1:4 
+]
+[u S1733 . 1 `S1704 1 . 1 0 `S1706 1 . 1 0 `S1709 1 . 1 0 `S1712 1 . 1 0 `S1715 1 . 1 0 `S1718 1 . 1 0 `S1727 1 . 1 0 ]
+[v _RCONbits RCONbits `VES1733  1 e 1 @4048 ]
+"12295
+[v _OSCCON2 OSCCON2 `VEuc  1 e 1 @4050 ]
+"12357
+[v _OSCCON OSCCON `VEuc  1 e 1 @4051 ]
+[s S419 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 NOT_RBPU 1 0 :1:7 
+]
+"13176
+[s S422 . 1 `uc 1 IOCIP 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 TMR0IP 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 INTEDG2 1 0 :1:4 
+`uc 1 INTEDG1 1 0 :1:5 
+`uc 1 INTEDG0 1 0 :1:6 
+`uc 1 nRBPU 1 0 :1:7 
+]
+[s S431 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 T0IP 1 0 :1:2 
+`uc 1 . 1 0 :4:3 
+`uc 1 RBPU 1 0 :1:7 
+]
+[u S436 . 1 `S419 1 . 1 0 `S422 1 . 1 0 `S431 1 . 1 0 ]
+[v _INTCON2bits INTCON2bits `VES436  1 e 1 @4081 ]
+[s S458 . 1 `uc 1 IOCIF 1 0 :1:0 
+`uc 1 INT0IF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 IOCIE 1 0 :1:3 
+`uc 1 INT0IE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 PEIE_GIEL 1 0 :1:6 
+`uc 1 GIE_GIEH 1 0 :1:7 
+]
+"13258
+[s S467 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 INT0F 1 0 :1:1 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 INT0E 1 0 :1:4 
+`uc 1 T0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+[s S476 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 GIEL 1 0 :1:6 
+`uc 1 GIEH 1 0 :1:7 
+]
+[u S480 . 1 `S458 1 . 1 0 `S467 1 . 1 0 `S476 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES480  1 e 1 @4082 ]
+"15586
+[v _PLLRDY PLLRDY `VEb  1 e 0 @32407 ]
+"55 /Applications/microchip/xc8/v2.35/pic/sources/c99/common/doprnt.c
+[v _flags flags `i  1 s 2 flags ]
+[v _prec prec `i  1 s 2 prec ]
+[v _width width `i  1 s 2 width ]
+"66
+[v _dbuf dbuf `[80]uc  1 s 80 dbuf ]
+"69
+[v _nout nout `i  1 s 2 nout ]
+[s S144 . 20 `*.37(uc 1 Read 2 0 `*.37(v 1 Write 2 2 `*.37(a 1 TransmitReady 2 4 `*.37(a 1 DataReady 2 6 `*.37(v 1 SetTxISR 2 8 `*.37(v 1 RxDefaultISR 2 10 `*.37(v 1 SetRxISR 2 12 `*.37(a 1 TransmitDone 2 14 `*.37(v 1 TxDefaultISR 2 16 `*.37(v 1 Initialize 2 18 ]
+"35 /Users/john/Library/Mobile Documents/com~apple~CloudDocs/Fiverr/Microchip Dev Board/PIC18F45K50_I2C.X/mcc_generated_files/drivers/uart.c
+[v _uart uart `C[1]S144  1 e 20 0 ]
+"62 /Users/john/Library/Mobile Documents/com~apple~CloudDocs/Fiverr/Microchip Dev Board/PIC18F45K50_I2C.X/mcc_generated_files/eusart1.c
+[v _eusart1TxHead eusart1TxHead `VEuc  1 e 1 0 ]
+"63
+[v _eusart1TxTail eusart1TxTail `VEuc  1 e 1 0 ]
+"64
+[v _eusart1TxBuffer eusart1TxBuffer `VE[8]uc  1 e 8 0 ]
+"65
+[v _eusart1TxBufferRemaining eusart1TxBufferRemaining `VEuc  1 e 1 0 ]
+"67
+[v _eusart1RxHead eusart1RxHead `VEuc  1 e 1 0 ]
+"68
+[v _eusart1RxTail eusart1RxTail `VEuc  1 e 1 0 ]
+"69
+[v _eusart1RxBuffer eusart1RxBuffer `VE[8]uc  1 e 8 0 ]
+[s S1403 . 1 `uc 1 perr 1 0 :1:0 
+`uc 1 ferr 1 0 :1:1 
+`uc 1 oerr 1 0 :1:2 
+`uc 1 reserved 1 0 :5:3 
+]
+"70
+[u S1408 . 1 `S1403 1 . 1 0 `uc 1 status 1 0 ]
+[v _eusart1RxStatusBuffer eusart1RxStatusBuffer `VE[8]S1408  1 e 8 0 ]
+"71
+[v _eusart1RxCount eusart1RxCount `VEuc  1 e 1 0 ]
+"72
+[v _eusart1RxLastError eusart1RxLastError `VES1408  1 e 1 0 ]
+"77
+[v _EUSART1_TxDefaultInterruptHandler EUSART1_TxDefaultInterruptHandler `*.37(v  1 e 2 0 ]
+"78
+[v _EUSART1_RxDefaultInterruptHandler EUSART1_RxDefaultInterruptHandler `*.37(v  1 e 2 0 ]
+"80
+[v _EUSART1_FramingErrorHandler EUSART1_FramingErrorHandler `*.37(v  1 e 2 0 ]
+"81
+[v _EUSART1_OverrunErrorHandler EUSART1_OverrunErrorHandler `*.37(v  1 e 2 0 ]
+"82
+[v _EUSART1_ErrorHandler EUSART1_ErrorHandler `*.37(v  1 e 2 0 ]
+"68 /Users/john/Library/Mobile Documents/com~apple~CloudDocs/Fiverr/Microchip Dev Board/PIC18F45K50_I2C.X/mcc_generated_files/examples/uart_example.c
+[v _rx rx `[16]uc  1 s 16 rx ]
+"146 /Users/john/Library/Mobile Documents/com~apple~CloudDocs/Fiverr/Microchip Dev Board/PIC18F45K50_I2C.X/mcc_generated_files/i2c1_master.c
+[v _i2c1_fsmStateTable i2c1_fsmStateTable `C[16]*.37(E5244  1 e 32 0 ]
+[s S640 . 36 `[6]*.37(E360 1 callbackTable 12 0 `[6]*.39v 1 callbackPayload 12 12 `us 1 time_out 2 24 `us 1 time_out_value 2 26 `uc 1 address 1 28 `*.39uc 1 data_ptr 2 29 `ui 1 data_length 2 31 `E5244 1 state 1 33 `E355 1 error 1 34 `uc 1 addressNackCheck 1 35 :1:0 
+`uc 1 busy 1 35 :1:1 
+`uc 1 inUse 1 35 :1:2 
+`uc 1 bufferFree 1 35 :1:3 
+]
+"165
+[v _I2C1_Status I2C1_Status `S640  1 e 36 0 ]
+"49 /Users/john/Library/Mobile Documents/com~apple~CloudDocs/Fiverr/Microchip Dev Board/PIC18F45K50_I2C.X/main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"69
+[v main@cTemp cTemp `f  1 a 4 6 ]
+"68
+[v main@temp temp `us  1 a 2 10 ]
+"60
+[v main@data data `[6]uc  1 a 6 0 ]
+"74
+} 0
+"5 /Applications/microchip/xc8/v2.35/pic/sources/c99/common/printf.c
+[v _printf printf `(i  1 e 2 0 ]
+{
+"8
+[v printf@ap ap `[1]*.39v  1 a 2 110 ]
+"5
+[v printf@fmt fmt `*.25Cuc  1 p 2 104 ]
+"13
+} 0
+"1390 /Applications/microchip/xc8/v2.35/pic/sources/c99/common/doprnt.c
+[v _vfprintf vfprintf `(i  1 e 2 0 ]
+{
+"1393
+[v vfprintf@cfmt cfmt `*.25uc  1 a 2 102 ]
+[s S2467 _IO_FILE 0 ]
+"1390
+[v vfprintf@fp fp `*.2S2467  1 p 2 96 ]
+[v vfprintf@fmt fmt `*.25Cuc  1 p 2 98 ]
+[v vfprintf@ap ap `*.39*.39v  1 p 2 100 ]
+"1404
+} 0
+"692
+[v _vfpfcnvrt vfpfcnvrt `(i  1 s 2 vfpfcnvrt ]
+{
+"696
+[v vfpfcnvrt@ll ll `o  1 a 8 80 ]
+"698
+[v vfpfcnvrt@f f `d  1 a 4 88 ]
+"694
+[v vfpfcnvrt@ct ct `[3]uc  1 a 3 92 ]
+[v vfpfcnvrt@c c `uc  1 a 1 95 ]
+[s S2467 _IO_FILE 0 ]
+"692
+[v vfpfcnvrt@fp fp `*.2S2467  1 p 2 70 ]
+[v vfpfcnvrt@fmt fmt `*.39*.25uc  1 p 2 72 ]
+[v vfpfcnvrt@ap ap `*.39*.39v  1 p 2 74 ]
+"1387
+} 0
+"3 /Applications/microchip/xc8/v2.35/pic/sources/c99/common/strncmp.c
+[v _strncmp strncmp `(i  1 e 2 0 ]
+{
+"5
+[v strncmp@r r `*.25Cuc  1 a 2 13 ]
+[v strncmp@l l `*.39Cuc  1 a 2 11 ]
+"3
+[v strncmp@_l _l `*.39Cuc  1 p 2 4 ]
+[v strncmp@_r _r `*.25Cuc  1 p 2 6 ]
+[v strncmp@n n `ui  1 p 2 8 ]
+"9
+} 0
+"332 /Applications/microchip/xc8/v2.35/pic/sources/c99/common/doprnt.c
+[v _efgtoa efgtoa `(i  1 s 2 efgtoa ]
+{
+"336
+[v efgtoa@u u `d  1 a 4 66 ]
+[v efgtoa@g g `d  1 a 4 58 ]
+[v efgtoa@l l `d  1 a 4 52 ]
+[v efgtoa@h h `d  1 a 4 48 ]
+[v efgtoa@ou ou `d  1 a 4 34 ]
+"335
+[v efgtoa@n n `i  1 a 2 64 ]
+[v efgtoa@e e `i  1 a 2 62 ]
+[v efgtoa@i i `i  1 a 2 56 ]
+[v efgtoa@w w `i  1 a 2 44 ]
+[v efgtoa@p p `i  1 a 2 42 ]
+[v efgtoa@sign sign `i  1 a 2 40 ]
+[v efgtoa@d d `i  1 a 2 38 ]
+[v efgtoa@m m `i  1 a 2 32 ]
+[v efgtoa@ne ne `i  1 a 2 30 ]
+[v efgtoa@pp pp `i  1 a 2 28 ]
+[v efgtoa@t t `i  1 a 2 26 ]
+"334
+[v efgtoa@mode mode `uc  1 a 1 47 ]
+[v efgtoa@nmode nmode `uc  1 a 1 46 ]
+[s S2467 _IO_FILE 0 ]
+"332
+[v efgtoa@fp fp `*.2S2467  1 p 2 8 ]
+[v efgtoa@f f `d  1 p 4 10 ]
+[v efgtoa@c c `uc  1 p 1 14 ]
+"525
+} 0
+"4 /Applications/microchip/xc8/v2.35/pic/sources/c99/common/tolower.c
+[v _tolower tolower `(i  1 e 2 0 ]
+{
+[v tolower@c c `i  1 p 2 10 ]
+"8
+} 0
+"5 /Applications/microchip/xc8/v2.35/pic/sources/c99/common/isupper.c
+[v _isupper isupper `(i  1 e 2 0 ]
+{
+[v isupper@c c `i  1 p 2 4 ]
+"8
+} 0
+"3 /Applications/microchip/xc8/v2.35/pic/sources/c99/common/strcpy.c
+[v _strcpy strcpy `(*.39uc  1 e 2 0 ]
+{
+"6
+[v strcpy@d d `*.39uc  1 a 2 12 ]
+"5
+[v strcpy@s s `*.35Cuc  1 a 2 10 ]
+"3
+[v strcpy@dest dest `*.39uc  1 p 2 4 ]
+[v strcpy@src src `*.35Cuc  1 p 2 6 ]
+"9
+} 0
+"3 /Applications/microchip/xc8/v2.35/pic/sources/c99/common/floorf.c
+[v _floorf floorf `(f  1 e 4 0 ]
+{
+[u S2610 . 4 `f 1 f 4 0 `ul 1 i 4 0 ]
+"5
+[v floorf@u u `S2610  1 a 4 59 ]
+"7
+[v floorf@m m `ul  1 a 4 53 ]
+"6
+[v floorf@e e `i  1 a 2 57 ]
+"3
+[v floorf@x x `f  1 p 4 43 ]
+"4
+[v floorf@F526 F526 `S2610  1 s 4 F526 ]
+"27
+} 0
+"4 /Applications/microchip/xc8/v2.35/pic/sources/c99/common/__fpclassifyf.c
+[v ___fpclassifyf __fpclassifyf `(i  1 e 2 0 ]
+{
+[u S2610 . 4 `f 1 f 4 0 `ul 1 i 4 0 ]
+"6
+[v ___fpclassifyf@u u `S2610  1 a 4 14 ]
+"7
+[v ___fpclassifyf@e e `i  1 a 2 12 ]
+"4
+[v ___fpclassifyf@x x `f  1 p 4 4 ]
+"5
+[v ___fpclassifyf@F465 F465 `S2610  1 s 4 F465 ]
+"11
+} 0
+"43 /Applications/microchip/xc8/v2.35/pic/sources/c99/common/fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+{
+"45
+[v ___fltol@exp1 exp1 `uc  1 a 1 13 ]
+[v ___fltol@sign1 sign1 `uc  1 a 1 12 ]
+"43
+[v ___fltol@f1 f1 `d  1 p 4 4 ]
+"70
+} 0
+"245 /Applications/microchip/xc8/v2.35/pic/sources/c99/common/sprcadd.c
+[v ___flsub __flsub `(d  1 e 4 0 ]
+{
+[v ___flsub@b b `d  1 p 4 0 ]
+[v ___flsub@a a `d  1 p 4 4 ]
+"250
+} 0
+"10
+[v ___fladd __fladd `(d  1 e 4 0 ]
+{
+"17
+[v ___fladd@grs grs `uc  1 a 1 83 ]
+"15
+[v ___fladd@bexp bexp `uc  1 a 1 82 ]
+"16
+[v ___fladd@aexp aexp `uc  1 a 1 81 ]
+"13
+[v ___fladd@signs signs `uc  1 a 1 80 ]
+"10
+[v ___fladd@b b `d  1 p 4 68 ]
+[v ___fladd@a a `d  1 p 4 72 ]
+"237
+} 0
+"15 /Applications/microchip/xc8/v2.35/pic/sources/c99/common/flneg.c
+[v ___flneg __flneg `(d  1 e 4 0 ]
+{
+[v ___flneg@f1 f1 `d  1 p 4 4 ]
+"20
+} 0
+"8 /Applications/microchip/xc8/v2.35/pic/sources/c99/common/sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+{
+[s S2300 . 4 `uc 1 a 1 0 `uc 1 b 1 1 `uc 1 c 1 2 `uc 1 d 1 3 ]
+"13
+[s S2305 . 4 `s 1 wordA 2 0 `s 1 wordB 2 2 ]
+[u S2308 . 4 `l 1 i 4 0 `d 1 f 4 0 `S2300 1 fAsBytes 4 0 `S2305 1 fAsWords 4 0 ]
+[v ___flmul@prod prod `S2308  1 a 4 62 ]
+"12
+[v ___flmul@grs grs `ul  1 a 4 57 ]
+[s S2376 . 2 `uc 1 a 1 0 `uc 1 b 1 1 ]
+"14
+[u S2379 . 2 `s 1 i 2 0 `us 1 n 2 0 `S2376 1 nAsBytes 2 0 ]
+[v ___flmul@temp temp `S2379  1 a 2 66 ]
+"10
+[v ___flmul@bexp bexp `uc  1 a 1 61 ]
+"11
+[v ___flmul@aexp aexp `uc  1 a 1 56 ]
+"9
+[v ___flmul@sign sign `uc  1 a 1 55 ]
+"8
+[v ___flmul@b b `d  1 p 4 43 ]
+[v ___flmul@a a `d  1 p 4 47 ]
+"205
+} 0
+"4 /Applications/microchip/xc8/v2.35/pic/sources/c99/common/flge.c
+[v ___flge __flge `(b  1 e 0 0 ]
+{
+[v ___flge@ff1 ff1 `d  1 p 4 68 ]
+[v ___flge@ff2 ff2 `d  1 p 4 72 ]
+"19
+} 0
+"4 /Applications/microchip/xc8/v2.35/pic/sources/c99/common/fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+{
+[v ___fleq@ff1 ff1 `d  1 p 4 4 ]
+[v ___fleq@ff2 ff2 `d  1 p 4 8 ]
+"12
+} 0
+"11 /Applications/microchip/xc8/v2.35/pic/sources/c99/common/sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+{
+"21
+[v ___fldiv@grs grs `ul  1 a 4 37 ]
+"22
+[v ___fldiv@rem rem `ul  1 a 4 30 ]
+"20
+[v ___fldiv@new_exp new_exp `s  1 a 2 35 ]
+"19
+[v ___fldiv@aexp aexp `uc  1 a 1 42 ]
+"18
+[v ___fldiv@bexp bexp `uc  1 a 1 41 ]
+"16
+[v ___fldiv@sign sign `uc  1 a 1 34 ]
+"11
+[v ___fldiv@b b `d  1 p 4 18 ]
+[v ___fldiv@a a `d  1 p 4 22 ]
+"185
+} 0
+"7 /Applications/microchip/xc8/v2.35/pic/sources/c99/common/awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+{
+"10
+[v ___awmod@sign sign `uc  1 a 1 9 ]
+[v ___awmod@counter counter `uc  1 a 1 8 ]
+"7
+[v ___awmod@dividend dividend `i  1 p 2 4 ]
+[v ___awmod@divisor divisor `i  1 p 2 6 ]
+"34
+} 0
+"7 /Applications/microchip/xc8/v2.35/pic/sources/c99/common/awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+{
+"10
+[v ___awdiv@quotient quotient `i  1 a 2 10 ]
+"11
+[v ___awdiv@sign sign `uc  1 a 1 9 ]
+[v ___awdiv@counter counter `uc  1 a 1 8 ]
+"7
+[v ___awdiv@dividend dividend `i  1 p 2 4 ]
+[v ___awdiv@divisor divisor `i  1 p 2 6 ]
+"41
+} 0
+"287 /Applications/microchip/xc8/v2.35/pic/sources/c99/common/doprnt.c
+[v _dtoa dtoa `(i  1 s 2 dtoa ]
+{
+"290
+[v dtoa@n n `o  1 a 8 59 ]
+"289
+[v dtoa@i i `i  1 a 2 67 ]
+[v dtoa@s s `i  1 a 2 57 ]
+[v dtoa@w w `i  1 a 2 55 ]
+[v dtoa@p p `i  1 a 2 53 ]
+[s S2467 _IO_FILE 0 ]
+"287
+[v dtoa@fp fp `*.2S2467  1 p 2 33 ]
+[v dtoa@d d `o  1 p 8 35 ]
+"328
+} 0
+"72
+[v _pad pad `(i  1 s 2 pad ]
+{
+"74
+[v pad@w w `i  1 a 2 31 ]
+[v pad@i i `i  1 a 2 29 ]
+[s S2467 _IO_FILE 0 ]
+"72
+[v pad@fp fp `*.2S2467  1 p 2 22 ]
+[v pad@buf buf `*.39uc  1 p 2 24 ]
+[v pad@p p `i  1 p 2 26 ]
+"95
+} 0
+"5 /Applications/microchip/xc8/v2.35/pic/sources/c99/common/strlen.c
+[v _strlen strlen `(ui  1 e 2 0 ]
+{
+"7
+[v strlen@a a `*.35Cuc  1 a 2 6 ]
+"5
+[v strlen@s s `*.35Cuc  1 p 2 4 ]
+"12
+} 0
+"8 /Applications/microchip/xc8/v2.35/pic/sources/c99/common/nf_fputs.c
+[v _fputs fputs `(i  1 e 2 0 ]
+{
+"11
+[v fputs@i i `i  1 a 2 20 ]
+"10
+[v fputs@c c `uc  1 a 1 19 ]
+"8
+[v fputs@s s `*.39Cuc  1 p 2 15 ]
+[u S2446 . 3 `*.2uc 1 buffer 3 0 `*.2Cuc 1 source 3 0 ]
+[s S2449 _IO_FILE 11 `S2446 1 . 3 0 `i 1 count 2 3 `[2]uc 1 ungetbuf 2 5 `i 1 ungetcnt 2 7 `i 1 limit 2 9 ]
+[v fputs@fp fp `*.2S2449  1 p 2 17 ]
+"19
+} 0
+"1 /Applications/microchip/xc8/v2.35/pic/sources/c99/common/abs.c
+[v _abs abs `(i  1 e 2 0 ]
+{
+[v abs@a a `i  1 p 2 22 ]
+"4
+} 0
+"9 /Applications/microchip/xc8/v2.35/pic/sources/c99/common/aomod.c
+[v ___aomod __aomod `(o  1 e 8 0 ]
+{
+"12
+[v ___aomod@sign sign `uc  1 a 1 21 ]
+[v ___aomod@counter counter `uc  1 a 1 20 ]
+"9
+[v ___aomod@dividend dividend `o  1 p 8 4 ]
+[v ___aomod@divisor divisor `o  1 p 8 12 ]
+"36
+} 0
+"9 /Applications/microchip/xc8/v2.35/pic/sources/c99/common/aodiv.c
+[v ___aodiv __aodiv `(o  1 e 8 0 ]
+{
+"12
+[v ___aodiv@quotient quotient `o  1 a 8 22 ]
+"13
+[v ___aodiv@sign sign `uc  1 a 1 21 ]
+[v ___aodiv@counter counter `uc  1 a 1 20 ]
+"9
+[v ___aodiv@dividend dividend `o  1 p 8 4 ]
+[v ___aodiv@divisor divisor `o  1 p 8 12 ]
+"43
+} 0
+"259 /Applications/microchip/xc8/v2.35/pic/sources/c99/common/doprnt.c
+[v _ctoa ctoa `(i  1 s 2 ctoa ]
+{
+"261
+[v ctoa@w w `i  1 a 2 21 ]
+[v ctoa@l l `i  1 a 2 19 ]
+[s S2467 _IO_FILE 0 ]
+"259
+[v ctoa@fp fp `*.2S2467  1 p 2 15 ]
+[v ctoa@c c `uc  1 p 1 17 ]
+"283
+} 0
+"8 /Applications/microchip/xc8/v2.35/pic/sources/c99/common/nf_fputc.c
+[v _fputc fputc `(i  1 e 2 0 ]
+{
+[v fputc@c c `i  1 p 2 6 ]
+[u S2446 . 3 `*.2uc 1 buffer 3 0 `*.2Cuc 1 source 3 0 ]
+[s S2449 _IO_FILE 11 `S2446 1 . 3 0 `i 1 count 2 3 `[2]uc 1 ungetbuf 2 5 `i 1 ungetcnt 2 7 `i 1 limit 2 9 ]
+[v fputc@fp fp `*.2S2449  1 p 2 8 ]
+"24
+} 0
+"202 /Users/john/Library/Mobile Documents/com~apple~CloudDocs/Fiverr/Microchip Dev Board/PIC18F45K50_I2C.X/mcc_generated_files/eusart1.c
+[v _putch putch `(v  1 e 1 0 ]
+{
+[v putch@txData txData `uc  1 a 1 wreg ]
+[v putch@txData txData `uc  1 a 1 wreg ]
+"204
+[v putch@txData txData `uc  1 a 1 5 ]
+"205
+} 0
+"173
+[v _EUSART1_Write EUSART1_Write `(v  1 e 1 0 ]
+{
+[v EUSART1_Write@txData txData `uc  1 a 1 wreg ]
+[v EUSART1_Write@txData txData `uc  1 a 1 wreg ]
+[v EUSART1_Write@txData txData `uc  1 a 1 4 ]
+"195
+} 0
+"51 /Users/john/Library/Mobile Documents/com~apple~CloudDocs/Fiverr/Microchip Dev Board/PIC18F45K50_I2C.X/mcc_generated_files/drivers/i2c_simple_master.c
+[v _i2c_write1ByteRegister i2c_write1ByteRegister `(v  1 e 1 0 ]
+{
+[v i2c_write1ByteRegister@address address `uc  1 a 1 wreg ]
+[v i2c_write1ByteRegister@address address `uc  1 a 1 wreg ]
+[v i2c_write1ByteRegister@reg reg `uc  1 p 1 19 ]
+[v i2c_write1ByteRegister@data data `uc  1 p 1 20 ]
+[v i2c_write1ByteRegister@address address `uc  1 a 1 21 ]
+"59
+} 0
+"203
+[v _i2c_readDataBlock i2c_readDataBlock `(v  1 e 1 0 ]
+{
+[v i2c_readDataBlock@address address `uc  1 a 1 wreg ]
+[s S76 . 4 `ui 1 len 2 0 `*.39uc 1 data 2 2 ]
+"206
+[v i2c_readDataBlock@d d `S76  1 a 4 25 ]
+"203
+[v i2c_readDataBlock@address address `uc  1 a 1 wreg ]
+[v i2c_readDataBlock@reg reg `uc  1 p 1 19 ]
+[v i2c_readDataBlock@data data `*.39v  1 p 2 20 ]
+[v i2c_readDataBlock@len len `ui  1 p 2 22 ]
+"207
+[v i2c_readDataBlock@address address `uc  1 a 1 24 ]
+"216
+} 0
+"283 /Users/john/Library/Mobile Documents/com~apple~CloudDocs/Fiverr/Microchip Dev Board/PIC18F45K50_I2C.X/mcc_generated_files/i2c1_master.c
+[v _I2C1_SetAddressNackCallback I2C1_SetAddressNackCallback `(v  1 e 1 0 ]
+{
+[v I2C1_SetAddressNackCallback@cb cb `*.37(E360  1 p 2 9 ]
+[v I2C1_SetAddressNackCallback@ptr ptr `*.2v  1 p 2 11 ]
+"286
+} 0
+"176
+[v _I2C1_Open I2C1_Open `(E355  1 e 1 0 ]
+{
+[v I2C1_Open@address address `uc  1 a 1 wreg ]
+"178
+[v I2C1_Open@returnValue returnValue `E355  1 a 1 5 ]
+"176
+[v I2C1_Open@address address `uc  1 a 1 wreg ]
+"178
+[v I2C1_Open@address address `uc  1 a 1 4 ]
+"207
+} 0
+"543
+[v _I2C1_MasterOpen I2C1_MasterOpen `T(a  1 s 1 I2C1_MasterOpen ]
+{
+"555
+} 0
+"251
+[v _I2C1_MasterWrite I2C1_MasterWrite `(E355  1 e 1 0 ]
+{
+"254
+} 0
+"224
+[v _I2C1_MasterOperation I2C1_MasterOperation `(E355  1 e 1 0 ]
+{
+[v I2C1_MasterOperation@read read `a  1 a 1 wreg ]
+"226
+[v I2C1_MasterOperation@returnValue returnValue `E355  1 a 1 18 ]
+"224
+[v I2C1_MasterOperation@read read `a  1 a 1 wreg ]
+"226
+[v I2C1_MasterOperation@read read `a  1 a 1 17 ]
+"244
+} 0
+"312
+[v _I2C1_Poller I2C1_Poller `(v  1 s 1 I2C1_Poller ]
+{
+"319
+} 0
+"650
+[v _I2C1_MasterWaitForEvent I2C1_MasterWaitForEvent `T(v  1 s 1 I2C1_MasterWaitForEvent ]
+{
+"659
+} 0
+"321
+[v _I2C1_MasterFsm I2C1_MasterFsm `T(v  1 s 1 I2C1_MasterFsm ]
+{
+"330
+} 0
+"500
+[v _I2C1_DO_ADDRESS_NACK I2C1_DO_ADDRESS_NACK `(E5244  1 s 1 I2C1_DO_ADDRESS_NACK ]
+{
+"512
+} 0
+"494
+[v _I2C1_DO_RESET I2C1_DO_RESET `(E5244  1 s 1 I2C1_DO_RESET ]
+{
+"499
+} 0
+"488
+[v _I2C1_DO_RX_NACK_RESTART I2C1_DO_RX_NACK_RESTART `(E5244  1 s 1 I2C1_DO_RX_NACK_RESTART ]
+{
+"492
+} 0
+"482
+[v _I2C1_DO_RX_NACK_STOP I2C1_DO_RX_NACK_STOP `(E5244  1 s 1 I2C1_DO_RX_NACK_STOP ]
+{
+"486
+} 0
+"475
+[v _I2C1_DO_RX_ACK I2C1_DO_RX_ACK `(E5244  1 s 1 I2C1_DO_RX_ACK ]
+{
+"479
+} 0
+"469
+[v _I2C1_DO_SEND_STOP I2C1_DO_SEND_STOP `(E5244  1 s 1 I2C1_DO_SEND_STOP ]
+{
+"473
+} 0
+"463
+[v _I2C1_DO_SEND_RESTART I2C1_DO_SEND_RESTART `(E5244  1 s 1 I2C1_DO_SEND_RESTART ]
+{
+"467
+} 0
+"456
+[v _I2C1_DO_SEND_RESTART_WRITE I2C1_DO_SEND_RESTART_WRITE `(E5244  1 s 1 I2C1_DO_SEND_RESTART_WRITE ]
+{
+"460
+} 0
+"450
+[v _I2C1_DO_SEND_RESTART_READ I2C1_DO_SEND_RESTART_READ `(E5244  1 s 1 I2C1_DO_SEND_RESTART_READ ]
+{
+"454
+} 0
+"402
+[v _I2C1_DO_RCEN I2C1_DO_RCEN `(E5244  1 s 1 I2C1_DO_RCEN ]
+{
+"407
+} 0
+"378
+[v _I2C1_DO_RX I2C1_DO_RX `(E5244  1 s 1 I2C1_DO_RX ]
+{
+"400
+} 0
+"354
+[v _I2C1_DO_TX I2C1_DO_TX `(E5244  1 s 1 I2C1_DO_TX ]
+{
+"376
+} 0
+"347
+[v _I2C1_DO_SEND_ADR_WRITE I2C1_DO_SEND_ADR_WRITE `(E5244  1 s 1 I2C1_DO_SEND_ADR_WRITE ]
+{
+"352
+} 0
+"340
+[v _I2C1_DO_SEND_ADR_READ I2C1_DO_SEND_ADR_READ `(E5244  1 s 1 I2C1_DO_SEND_ADR_READ ]
+{
+"345
+} 0
+"333
+[v _I2C1_DO_IDLE I2C1_DO_IDLE `(E5244  1 s 1 I2C1_DO_IDLE ]
+{
+"338
+} 0
+"409
+[v _I2C1_DO_TX_EMPTY I2C1_DO_TX_EMPTY `(E5244  1 s 1 I2C1_DO_TX_EMPTY ]
+{
+"424
+} 0
+"645
+[v _I2C1_MasterSetIrq I2C1_MasterSetIrq `T(v  1 s 1 I2C1_MasterSetIrq ]
+{
+"648
+} 0
+"598
+[v _I2C1_MasterIsNack I2C1_MasterIsNack `T(a  1 s 1 I2C1_MasterIsNack ]
+{
+"601
+} 0
+"568
+[v _I2C1_MasterSendTxData I2C1_MasterSendTxData `T(v  1 s 1 I2C1_MasterSendTxData ]
+{
+[v I2C1_MasterSendTxData@data data `uc  1 a 1 wreg ]
+[v I2C1_MasterSendTxData@data data `uc  1 a 1 wreg ]
+"570
+[v I2C1_MasterSendTxData@data data `uc  1 a 1 4 ]
+"571
+} 0
+"603
+[v _I2C1_MasterSendAck I2C1_MasterSendAck `T(v  1 s 1 I2C1_MasterSendAck ]
+{
+"607
+} 0
+"563
+[v _I2C1_MasterGetRxData I2C1_MasterGetRxData `T(uc  1 s 1 I2C1_MasterGetRxData ]
+{
+"566
+} 0
+"609
+[v _I2C1_MasterSendNack I2C1_MasterSendNack `T(v  1 s 1 I2C1_MasterSendNack ]
+{
+"613
+} 0
+"583
+[v _I2C1_MasterStartRx I2C1_MasterStartRx `T(v  1 s 1 I2C1_MasterStartRx ]
+{
+"586
+} 0
+"525
+[v _I2C1_CallbackReturnReset I2C1_CallbackReturnReset `(E360  1 e 1 0 ]
+{
+[v I2C1_CallbackReturnReset@funPtr funPtr `*.39v  1 p 2 13 ]
+"528
+} 0
+"520
+[v _I2C1_CallbackReturnStop I2C1_CallbackReturnStop `(E360  1 e 1 0 ]
+{
+"523
+} 0
+"170 /Users/john/Library/Mobile Documents/com~apple~CloudDocs/Fiverr/Microchip Dev Board/PIC18F45K50_I2C.X/mcc_generated_files/examples/i2c1_master_example.c
+[v _rdBlkRegCompleteHandler@i2c1_master_example$F270 rdBlkRegCompleteHandler `(E360  1 s 1 rdBlkRegCompleteHandler ]
+{
+[v rdBlkRegCompleteHandler@i2c1_master_example$F270@ptr ptr `*.39v  1 p 2 13 ]
+"175
+} 0
+"156
+[v _wr1RegCompleteHandler@i2c1_master_example$F253 wr1RegCompleteHandler `(E360  1 s 1 wr1RegCompleteHandler ]
+{
+[v wr1RegCompleteHandler@i2c1_master_example$F253@ptr ptr `*.39v  1 p 2 13 ]
+"161
+} 0
+"149
+[v _rd2RegCompleteHandler@i2c1_master_example$F247 rd2RegCompleteHandler `(E360  1 s 1 rd2RegCompleteHandler ]
+{
+[v rd2RegCompleteHandler@i2c1_master_example$F247@ptr ptr `*.39v  1 p 2 13 ]
+"154
+} 0
+"142
+[v _rd1RegCompleteHandler@i2c1_master_example$F236 rd1RegCompleteHandler `(E360  1 s 1 rd1RegCompleteHandler ]
+{
+[v rd1RegCompleteHandler@i2c1_master_example$F236@ptr ptr `*.39v  1 p 2 13 ]
+"147
+} 0
+"185 /Users/john/Library/Mobile Documents/com~apple~CloudDocs/Fiverr/Microchip Dev Board/PIC18F45K50_I2C.X/mcc_generated_files/drivers/i2c_simple_master.c
+[v _rdBlkRegCompleteHandler rdBlkRegCompleteHandler `(E360  1 s 1 rdBlkRegCompleteHandler ]
+{
+[v rdBlkRegCompleteHandler@p p `*.39v  1 p 2 13 ]
+"190
+} 0
+"151
+[v _wr2RegCompleteHandler wr2RegCompleteHandler `(E360  1 s 1 wr2RegCompleteHandler ]
+{
+[v wr2RegCompleteHandler@p p `*.39v  1 p 2 13 ]
+"156
+} 0
+"119
+[v _rd2RegCompleteHandler rd2RegCompleteHandler `(E360  1 s 1 rd2RegCompleteHandler ]
+{
+[v rd2RegCompleteHandler@p p `*.39v  1 p 2 13 ]
+"124
+} 0
+"81
+[v _rd1RegCompleteHandler rd1RegCompleteHandler `(E360  1 s 1 rd1RegCompleteHandler ]
+{
+[v rd1RegCompleteHandler@p p `*.39v  1 p 2 13 ]
+"86
+} 0
+"34
+[v _wr1RegCompleteHandler wr1RegCompleteHandler `(E360  1 s 1 wr1RegCompleteHandler ]
+{
+[v wr1RegCompleteHandler@p p `*.39v  1 p 2 13 ]
+"39
+} 0
+"163 /Users/john/Library/Mobile Documents/com~apple~CloudDocs/Fiverr/Microchip Dev Board/PIC18F45K50_I2C.X/mcc_generated_files/examples/i2c1_master_example.c
+[v _wr2RegCompleteHandler@i2c1_master_example$F259 wr2RegCompleteHandler `(E360  1 s 1 wr2RegCompleteHandler ]
+{
+[v wr2RegCompleteHandler@i2c1_master_example$F259@ptr ptr `*.39v  1 p 2 13 ]
+"168
+} 0
+"273 /Users/john/Library/Mobile Documents/com~apple~CloudDocs/Fiverr/Microchip Dev Board/PIC18F45K50_I2C.X/mcc_generated_files/i2c1_master.c
+[v _I2C1_SetDataCompleteCallback I2C1_SetDataCompleteCallback `(v  1 e 1 0 ]
+{
+[v I2C1_SetDataCompleteCallback@cb cb `*.37(E360  1 p 2 9 ]
+[v I2C1_SetDataCompleteCallback@ptr ptr `*.39v  1 p 2 11 ]
+"276
+} 0
+"298
+[v _I2C1_SetCallback I2C1_SetCallback `(v  1 s 1 I2C1_SetCallback ]
+{
+[v I2C1_SetCallback@idx idx `E5262  1 a 1 wreg ]
+[v I2C1_SetCallback@idx idx `E5262  1 a 1 wreg ]
+[v I2C1_SetCallback@cb cb `*.37(E360  1 p 2 4 ]
+[v I2C1_SetCallback@ptr ptr `*.39v  1 p 2 6 ]
+"300
+[v I2C1_SetCallback@idx idx `E5262  1 a 1 8 ]
+"310
+} 0
+"263
+[v _I2C1_SetBuffer I2C1_SetBuffer `(v  1 e 1 0 ]
+{
+[v I2C1_SetBuffer@buffer buffer `*.39v  1 p 2 4 ]
+[v I2C1_SetBuffer@bufferSize bufferSize `ui  1 p 2 6 ]
+"271
+} 0
+"593
+[v _I2C1_MasterStop I2C1_MasterStop `T(v  1 s 1 I2C1_MasterStop ]
+{
+"596
+} 0
+"573
+[v _I2C1_MasterEnableRestart I2C1_MasterEnableRestart `T(v  1 s 1 I2C1_MasterEnableRestart ]
+{
+"576
+} 0
+"588
+[v _I2C1_MasterStart I2C1_MasterStart `T(v  1 s 1 I2C1_MasterStart ]
+{
+"591
+} 0
+"209
+[v _I2C1_Close I2C1_Close `(E355  1 e 1 0 ]
+{
+"211
+[v I2C1_Close@returnValue returnValue `E355  1 a 1 4 ]
+"222
+} 0
+"635
+[v _I2C1_MasterDisableIrq I2C1_MasterDisableIrq `T(v  1 s 1 I2C1_MasterDisableIrq ]
+{
+"638
+} 0
+"557
+[v _I2C1_MasterClose I2C1_MasterClose `T(v  1 s 1 I2C1_MasterClose ]
+{
+"561
+} 0
+"640
+[v _I2C1_MasterClearIrq I2C1_MasterClearIrq `T(v  1 s 1 I2C1_MasterClearIrq ]
+{
+"643
+} 0
+"10 /Applications/microchip/xc8/v2.35/pic/sources/c99/common/xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+{
+[v ___xxtofl@sign sign `uc  1 a 1 wreg ]
+"13
+[v ___xxtofl@arg arg `ul  1 a 4 14 ]
+"12
+[v ___xxtofl@exp exp `uc  1 a 1 13 ]
+"10
+[v ___xxtofl@sign sign `uc  1 a 1 wreg ]
+[v ___xxtofl@val val `l  1 p 4 4 ]
+"15
+[v ___xxtofl@sign sign `uc  1 a 1 12 ]
+"44
+} 0
+"50 /Users/john/Library/Mobile Documents/com~apple~CloudDocs/Fiverr/Microchip Dev Board/PIC18F45K50_I2C.X/mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+{
+"58
+} 0
+"55 /Users/john/Library/Mobile Documents/com~apple~CloudDocs/Fiverr/Microchip Dev Board/PIC18F45K50_I2C.X/mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+{
+"97
+} 0
+"60 /Users/john/Library/Mobile Documents/com~apple~CloudDocs/Fiverr/Microchip Dev Board/PIC18F45K50_I2C.X/mcc_generated_files/mcc.c
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+{
+"74
+} 0
+"52 /Users/john/Library/Mobile Documents/com~apple~CloudDocs/Fiverr/Microchip Dev Board/PIC18F45K50_I2C.X/mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_Initialize INTERRUPT_Initialize `(v  1 e 1 0 ]
+{
+"66
+} 0
+"167 /Users/john/Library/Mobile Documents/com~apple~CloudDocs/Fiverr/Microchip Dev Board/PIC18F45K50_I2C.X/mcc_generated_files/i2c1_master.c
+[v _I2C1_Initialize I2C1_Initialize `(v  1 e 1 0 ]
+{
+"174
+} 0
+"88 /Users/john/Library/Mobile Documents/com~apple~CloudDocs/Fiverr/Microchip Dev Board/PIC18F45K50_I2C.X/mcc_generated_files/eusart1.c
+[v _EUSART1_Initialize EUSART1_Initialize `(v  1 e 1 0 ]
+{
+"130
+} 0
+"286
+[v _EUSART1_SetTxInterruptHandler EUSART1_SetTxInterruptHandler `(v  1 e 1 0 ]
+{
+[v EUSART1_SetTxInterruptHandler@interruptHandler interruptHandler `*.37(v  1 p 2 4 ]
+"288
+} 0
+"290
+[v _EUSART1_SetRxInterruptHandler EUSART1_SetRxInterruptHandler `(v  1 e 1 0 ]
+{
+[v EUSART1_SetRxInterruptHandler@interruptHandler interruptHandler `*.37(v  1 p 2 4 ]
+"292
+} 0
+"278
+[v _EUSART1_SetOverrunErrorHandler EUSART1_SetOverrunErrorHandler `(v  1 e 1 0 ]
+{
+[v EUSART1_SetOverrunErrorHandler@interruptHandler interruptHandler `*.37(v  1 p 2 4 ]
+"280
+} 0
+"274
+[v _EUSART1_SetFramingErrorHandler EUSART1_SetFramingErrorHandler `(v  1 e 1 0 ]
+{
+[v EUSART1_SetFramingErrorHandler@interruptHandler interruptHandler `*.37(v  1 p 2 4 ]
+"276
+} 0
+"282
+[v _EUSART1_SetErrorHandler EUSART1_SetErrorHandler `(v  1 e 1 0 ]
+{
+[v EUSART1_SetErrorHandler@interruptHandler interruptHandler `*.37(v  1 p 2 4 ]
+"284
+} 0
+"68 /Users/john/Library/Mobile Documents/com~apple~CloudDocs/Fiverr/Microchip Dev Board/PIC18F45K50_I2C.X/mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_InterruptManagerHigh INTERRUPT_InterruptManagerHigh `IIH(v  1 e 1 0 ]
+{
+"83
+} 0
+"207 /Users/john/Library/Mobile Documents/com~apple~CloudDocs/Fiverr/Microchip Dev Board/PIC18F45K50_I2C.X/mcc_generated_files/eusart1.c
+[v _EUSART1_Transmit_ISR EUSART1_Transmit_ISR `(v  1 e 1 0 ]
+{
+"224
+} 0
+"226
+[v _EUSART1_Receive_ISR EUSART1_Receive_ISR `(v  1 e 1 0 ]
+{
+"248
+} 0
+"262
+[v _EUSART1_DefaultOverrunErrorHandler EUSART1_DefaultOverrunErrorHandler `(v  1 e 1 0 ]
+{
+"268
+} 0
+"260
+[v _EUSART1_DefaultFramingErrorHandler EUSART1_DefaultFramingErrorHandler `(v  1 e 1 0 ]
+{
+} 0
+"270
+[v _EUSART1_DefaultErrorHandler EUSART1_DefaultErrorHandler `(v  1 e 1 0 ]
+{
+"272
+} 0
+"250
+[v _EUSART1_RxDataHandler EUSART1_RxDataHandler `(v  1 e 1 0 ]
+{
+"258
+} 0
